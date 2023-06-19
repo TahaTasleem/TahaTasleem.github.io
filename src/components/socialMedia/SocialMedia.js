@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
+import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -79,6 +79,15 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      {socialMediaLinks.number ? (
+        <a
+          className="icon-button kaggle"
+          href={`tel:${socialMediaLinks.number}`}
+        >
+          <i class="fas fa-phone-alt"></i>
+          <span></span>
+        </a>
+      ) : null}
 
       {socialMediaLinks.twitter ? (
         <a
@@ -115,6 +124,7 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
 
       {socialMediaLinks.kaggle ? (
         <a

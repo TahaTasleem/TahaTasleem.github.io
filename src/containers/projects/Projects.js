@@ -46,7 +46,16 @@ export default function Projects() {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
-          <h1 className="project-title">Open Source Projects</h1>
+          <h1 className="project-title">More Projects</h1>
+          <p
+              className={
+                isDark
+                  ? "dark-mode subTitle achievement-subtitle"
+                  : "subTitle achievement-subtitle"
+              }
+            >
+              "TO EXPLORE ADDITIONAL PROJECTS, PLEASE VISIT MY GITHUB ACCOUNT."
+            </p>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               if (!v) {
@@ -60,7 +69,7 @@ export default function Projects() {
             })}
           </div>
           <Button
-            text={"More Projects"}
+            text={"Explore GitHub"}
             className="project-button"
             href={socialMediaLinks.github}
             newTab={true}
