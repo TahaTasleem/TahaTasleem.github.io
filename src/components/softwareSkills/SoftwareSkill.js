@@ -1,7 +1,7 @@
 import React from "react";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
-import { Icon } from "@iconify/react";
+import {Icon} from "@iconify/react";
 export default function SoftwareSkill() {
   return (
     <div>
@@ -14,7 +14,7 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                 <Icon icon={skills.fontAwesomeClassname} />
+                <Icon icon={skills.fontAwesomeClassname} />
                 <p>{skills.skillName}</p>
               </li>
             );

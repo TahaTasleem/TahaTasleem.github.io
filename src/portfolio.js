@@ -36,7 +36,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/tahatasleem/",
   gmail: "tahatasleem01@gmail.com",
   facebook: "https://www.facebook.com/taha.tasleem",
-  instagram:"https://www.instagram.com/taha.tasleem",
+  instagram: "https://www.instagram.com/taha.tasleem",
   number: "+923352288767",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -47,12 +47,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do ?",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO LEARN AND EXPLORE EVERY TECH STACK",
+  subTitle:
+    "CRAZY FULL STACK DEVELOPER WHO WANTS TO LEARN AND EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Develop robust RESTful APIs and utilizing API frameworks like Express.js, or Django REST Framework to enable seamless communication between the components."),
+    emoji(
+      "⚡ Develop robust RESTful APIs and utilizing API frameworks like Express.js, or Django REST Framework to enable seamless communication between the components."
+    ),
     emoji(
       "⚡ Architect scalable and secure backend systems, to handle complex business logic and ensure optimal performance."
     ),
@@ -67,80 +70,79 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "HTML5",
-      fontAwesomeClassname: "devicon:html5",
+      fontAwesomeClassname: "devicon:html5"
     },
     {
       skillName: "CSS3",
-      fontAwesomeClassname: "vscode-icons:file-type-css",
+      fontAwesomeClassname: "vscode-icons:file-type-css"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "logos:javascript",
+      fontAwesomeClassname: "logos:javascript"
     },
     {
       skillName: "Reactjs",
-      fontAwesomeClassname: "devicon:react",
+      fontAwesomeClassname: "devicon:react"
     },
     {
       skillName: "AngularJs",
-      fontAwesomeClassname: "logos:angular-icon",
+      fontAwesomeClassname: "logos:angular-icon"
     },
     {
       skillName: "Nodejs",
-      fontAwesomeClassname: "logos:nodejs",
+      fontAwesomeClassname: "logos:nodejs"
     },
     {
       skillName: "Django",
-      fontAwesomeClassname: "skill-icons:django",
+      fontAwesomeClassname: "skill-icons:django"
     },
     {
       skillName: "Rest Framework",
-      fontAwesomeClassname: "devicon:djangorest",
+      fontAwesomeClassname: "devicon:djangorest"
     },
     {
       skillName: "Python",
-      fontAwesomeClassname: "vscode-icons:file-type-python",
+      fontAwesomeClassname: "vscode-icons:file-type-python"
     },
     {
       skillName: ".NET",
-      fontAwesomeClassname: "devicon:dot-net-wordmark",
+      fontAwesomeClassname: "devicon:dot-net-wordmark"
     },
     {
       skillName: "NPM",
-      fontAwesomeClassname: "logos:npm-icon",
+      fontAwesomeClassname: "logos:npm-icon"
     },
     {
       skillName: "Android",
-      fontAwesomeClassname: "logos:android-vertical",
+      fontAwesomeClassname: "logos:android-vertical"
     },
     {
       skillName: "SQL",
-      fontAwesomeClassname: "devicon:sqldeveloper",
+      fontAwesomeClassname: "devicon:sqldeveloper"
     },
     {
       skillName: "MongoDB",
-      fontAwesomeClassname: "logos:mongodb-icon",
+      fontAwesomeClassname: "logos:mongodb-icon"
     },
     {
       skillName: "Azure",
-      fontAwesomeClassname: "devicon:azure",
+      fontAwesomeClassname: "devicon:azure"
     },
     {
       skillName: "MySQL",
-      fontAwesomeClassname: "logos:mysql",
+      fontAwesomeClassname: "logos:mysql"
     },
     {
       skillName: "Figma",
-      fontAwesomeClassname: "devicon:figma",
+      fontAwesomeClassname: "devicon:figma"
     },
     {
       skillName: "Adobe Illustrator",
-      fontAwesomeClassname: "skill-icons:illustrator",
-    },
+      fontAwesomeClassname: "skill-icons:illustrator"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Education Section
 
@@ -148,7 +150,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "FAST National University of Computer and Emerging Sciences (NUCES)",
+      schoolName:
+        "FAST National University of Computer and Emerging Sciences (NUCES)",
       logo: require("./assets/images/FAST_Logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "Aug 19 - Jun 23",
@@ -176,9 +179,7 @@ const educationInfo = {
       subHeader: "Matriculation, Pre-Engineering",
       duration: "Aug 2015 - Jun 2017",
       desc: "S.M.PUBLIC ACADEMY was established in 1964 by a group of educationists. It stands amongst the top ranking schools of Karachi as the Board of Secondary Education results speak for itself year after year.",
-      descBullets: [
-        "I have completed my matriculation with an A+ Grade."
-      ]
+      descBullets: ["I have completed my matriculation with an A+ Grade."]
     }
   ]
 };
@@ -228,20 +229,19 @@ const workExperiences = {
       company: "CoalDev",
       companylogo: require("./assets/images/CoalDev_Logo.png"),
       date: "Oct 2022 – Dec 2022",
-      desc:"CoalDev is a customer-centric information technology company and offers comprehensive, cost effective and efficient software solutions. CoalDev specializes in the domain of data science, custom software development, cloud and blockchain. My role as an intern was:",
+      desc: "CoalDev is a customer-centric information technology company and offers comprehensive, cost effective and efficient software solutions. CoalDev specializes in the domain of data science, custom software development, cloud and blockchain. My role as an intern was:",
       descBullets: [
         "To co-ordinate in the development of a Stock Investment Website.",
         "To design Frontend Screens using Reactjs.",
         "To develop REST API's using Django Rest Framework.",
         "Tech Stack: React Js, Python Django, SQLite."
       ]
-    },
+    }
   ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
-
 
 // Some big projects you have worked on
 
@@ -251,8 +251,10 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/ADRS_Logo.jpeg"),
-      projectName: "Accident Detection And Reporting System (Final Year Project)",
-      projectDesc: "An accident detection and reporting system, developed specifically for motorcycle riders. The system comprises an Android application and a web application. Upon accident detection, a report, including location is sent to both the rescue services and the rider's relatives for immediate notification. Simultaneously, the web application enables rescue services to access the report and dispatch an ambulance. The web application is developed using the MERN (MongoDB, Express.js, React, Node.js) stack, while the app is developed using Java.",
+      projectName:
+        "Accident Detection And Reporting System (Final Year Project)",
+      projectDesc:
+        "An accident detection and reporting system, developed specifically for motorcycle riders. The system comprises an Android application and a web application. Upon accident detection, a report, including location is sent to both the rescue services and the rider's relatives for immediate notification. Simultaneously, the web application enables rescue services to access the report and dispatch an ambulance. The web application is developed using the MERN (MongoDB, Express.js, React, Node.js) stack, while the app is developed using Java.",
       footerLink: [
         {
           name: "View Mobile App Code",
@@ -268,7 +270,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ecom_Logo.png"),
       projectName: "E-Commerce Website",
-      projectDesc: "The E-Commerce store is designed to provide users with the ability to browse, purchase, and review products. It offers comprehensive functionality, including categorization, rating and reviews, payment integration, as well as authorization and authentication features. Additionally, the admin has the capability to perform CRUD operations on both products and categories. The MERN Stack is utilized as the technology stack for this project",
+      projectDesc:
+        "The E-Commerce store is designed to provide users with the ability to browse, purchase, and review products. It offers comprehensive functionality, including categorization, rating and reviews, payment integration, as well as authorization and authentication features. Additionally, the admin has the capability to perform CRUD operations on both products and categories. The MERN Stack is utilized as the technology stack for this project",
       footerLink: [
         {
           name: "View Frontend Code",
@@ -283,7 +286,6 @@ const bigProjects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -309,7 +311,7 @@ const achievementSection = {
         {
           name: "View Credentials",
           url: "https://www.credly.com/badges/9566b5c5-2a17-43c5-bd5a-5fd3b2f71933/linked_in_profile"
-        },
+        }
       ]
     },
     {
@@ -342,97 +344,95 @@ const achievementSection = {
       subtitle: "Google Cloud Platform",
       image: require("./assets/images/GCP.png"),
       imageAlt: "Google Cloud Platform Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Google Cloud Big Data and Machine Learning Fundamentals",
       subtitle: "Google Cloud Platform",
       image: require("./assets/images/GCP.png"),
       imageAlt: "Google Cloud Platform Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Building Batch Data Pipeline on Google Cloud Platform",
       subtitle: "Google Cloud Platform",
       image: require("./assets/images/GCP.png"),
       imageAlt: "Google Cloud Platform Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Writing Efficient Python Code",
       subtitle: "Datacamp",
       image: require("./assets/images/datacamp.png"),
       imageAlt: "Datacamp Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Introduction to PySpark",
       subtitle: "Datacamp",
       image: require("./assets/images/datacamp.png"),
       imageAlt: "Datacamp Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Introduction to Shell",
       subtitle: "Datacamp",
       image: require("./assets/images/datacamp.png"),
       imageAlt: "Datacamp Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Data Processing in Shell",
       subtitle: "Datacamp",
       image: require("./assets/images/datacamp.png"),
       imageAlt: "Datacamp Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Streamlined Data Ingestion with Pandas",
       subtitle: "Datacamp",
       image: require("./assets/images/datacamp.png"),
       imageAlt: "Datacamp Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Introduction to PowerBI",
       subtitle: "Datacamp",
       image: require("./assets/images/datacamp.png"),
       imageAlt: "Datacamp Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Introduction to Deep Learning",
       subtitle: "Datacamp",
       image: require("./assets/images/datacamp.png"),
       imageAlt: "Datacamp Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Python Data Science Toolbox Part I and II",
       subtitle: "Datacamp",
       image: require("./assets/images/datacamp.png"),
       imageAlt: "Datacamp Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Introduction to Git and GitHub",
       subtitle: "Google",
       image: require("./assets/images/google.png"),
       imageAlt: "Google Logo",
-      footerLink:[]
+      footerLink: []
     },
     {
       title: "Python Data Structures",
       subtitle: "University of Michigan",
       image: require("./assets/images/uni_of_mic.png"),
       imageAlt: "University of Michigan Logo",
-      footerLink:[]
-    },
-    
+      footerLink: []
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Blogs Section
 
